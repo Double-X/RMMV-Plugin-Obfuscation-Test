@@ -16,4 +16,10 @@ Window_SATBBar.prototype.initialize = function(t) {
     Window_Base.prototype.initialize.call(this, i.x, i.y, i.width, i.height), this.opacity = 0
 }, Window_SATBBar.prototype.standardPadding = function() {
     return 0
+}, Window_SATBBar.prototype.setBattler = function(t) {
+    if (this._battler !== t) {
+        var i = this._battler;
+        if (this._battler = t, !t) return this._updateProperty("visible", !1);
+        i && i !== t && this.refreshWin()
+    }
 };
