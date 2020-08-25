@@ -1,0 +1,1 @@
+This repository tests the idea of obfuscating the plugin implementation codes, then only exposes the directly relevant parts of the user requests involved(of course, only those needing accesses to the implementations should be entertained).
