@@ -23,3 +23,4 @@ Window_SATBBar.prototype.initialize = function(t) {
         i && i !== t && this.refreshWin()
     }
 };
+// It's a minified then deminified version of the relevant parts of the original implementation codes
