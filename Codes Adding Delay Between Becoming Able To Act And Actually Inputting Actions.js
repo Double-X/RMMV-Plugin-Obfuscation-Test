@@ -12,3 +12,4 @@ Game_SATBPhaseTypes.prototype._fillCoreATB = function(e) {
 }, Game_SATBPhaseTypes.prototype._onCoreATBBecomeNotFull = function() {
     this._battler.clearActions()
 };
+// It's a minified then deminified version of the relevant parts of the original implementation codes
