@@ -1,3 +1,10 @@
+/*
+ * 1. It's possible for some users to want to have ATB bar with window frames, but that needs to have the ATB bar window opacity or padding tuned
+ * 2. There's no way to tweak the ATB bar window opacity or padding right now on the user side
+ * 3. I don't think that such requests make any sense as it's just an ATB bar, but I don't want to put down my users either
+ * 4. Any such tunes and tweaks must be done by accessing the plugin implementation codes
+ * 5. The following implementation parts are the minimum amount of relevant codes to the users, and they won't work without the rest of the plugins
+ */
 Window_SATBBar.prototype.initialize = function(t) {
     this.setBattler(t);
     var i = {
